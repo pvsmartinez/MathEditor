@@ -61,9 +61,11 @@
 
 @end
 
+@class MTMathUILabel;
 
 @interface MTEditableMathLabel : UIView<UIKeyInput>
 
+@property (nonatomic) MTMathUILabel* label;
 @property (nonatomic) MTMathList* mathList;
 @property (nonatomic) UIColor* highlightColor;
 

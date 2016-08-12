@@ -23,7 +23,6 @@
 
 @interface MTEditableMathLabel() <UIGestureRecognizerDelegate, UITextInput>
 
-@property (nonatomic) MTMathUILabel* label;
 @property (nonatomic) UITapGestureRecognizer* tapGestureRecognizer;
 
 @end
